@@ -71,7 +71,7 @@ assignment-1/
 └── requirements.txt            # Project dependencies
 ```
 
-## Web-View of README.md 
+## 🌐 Web-View of README.md 
 
 [Access Here ](https://akashdv25.github.io/assignment-1/)
 
