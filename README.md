@@ -62,7 +62,6 @@ assignment-1/
 │   ├── keyword-args.py          # Keyword arguments usage
 │   └── positional-args.py       # Positional arguments examples
 │
-├── img/                         # Images and diagrams
 ├── __init__.py                 # Root package initialization
 ├── main.py                     # Streamlit app entry point
 └── requirements.txt            # Project dependencies
