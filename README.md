@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/9ee42a69-81d7-496b-a5f7-5da96d86310d)# 🐍 Python Concepts Explorer
+# 🐍 Python Concepts Explorer
 
 Welcome to our awesome Python learning journey! This project is all about exploring some of the coolest and most powerful features in Python. Let's dive in! 🚀
 
