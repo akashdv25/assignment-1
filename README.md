@@ -32,6 +32,10 @@ A Streamlit web app that demonstrates our Python concepts in action:
 - Uses decorators, args, and string formatting
 - Interactive user interface with Streamlit
 
+![](Screenshot%20from%202025-05-01%2019-12-54.png)
+
+
+
 ## 🚀 Getting Started
 
 1. Clone this repository
@@ -66,6 +70,8 @@ assignment-1/
 ├── main.py                     # Streamlit app entry point
 └── requirements.txt            # Project dependencies
 ```
+
+
 
 ## 🎓 What You'll Learn
 
