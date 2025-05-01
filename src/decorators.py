@@ -4,6 +4,7 @@
 # A decorator is a function that takes another function as an argument, adds some functionality, and returns a new function.
 
 
+
 def decorator_function(add):
     def wrapper():
         print("initializing addition")
@@ -44,10 +45,23 @@ def home():
 
 '''
 
+#This is a decorator for logging portfolio performance
 
+import streamlit as st
 
+# Decorator for logging portfolio performance
+def log_performance(func):
+    def wrapper(*args, **kwargs):
+        result = func(*args, **kwargs)
+        st.sidebar.write(f"Performance calculated: {result}")
+        return result
+    return wrapper
 
-
+@log_performance
+def calculate_portfolio_performance(*transactions):
+    # Calculate performance based on transactions
+    total_value = sum(t['shares'] * t['price'] for t in transactions)
+    return total_value
 
 
 

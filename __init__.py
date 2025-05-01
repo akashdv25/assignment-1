@@ -18,3 +18,6 @@ components listed in the subdirectory's __all__.
 
 
 '''
+from src import *
+
+
